@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+:root {
+  --font-main:'Press Start 2P', cursive;
+  --font-second:'Orbitron', sans-serif;
+} 
+
+*{
+    color:  rgba(255,255,255, 0.6);
+}
+
+span{
+    font-weight: bold;
+}
+
+body{
+    /* images background*/
+    /* link to url */
+    background-image: url(./starTrek.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    text-decoration-line: underline;
+}
+
+.series-movies{
+    font-size: 20px;
+}
+
+h2{
+    font-size: 2em;
+}
+
+li{
+    line-height: 2;
+}
+
+.characters{
+    font-size: 18px;
+}
+
+h4{
+    letter-spacing: 15px;
+    font-family: var(--font-main);
+}
+
+h4, h3, h2{
+    text-align: center;
+}
+
+li{
+    font-size: 1rem;
+}
